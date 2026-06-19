@@ -15,5 +15,5 @@ stopwaitsecs=30
 
 # We only need to pass the virtual environment PATH here
 environment=PATH="/home/jovyan/GenericRagModels/.venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
-stdout_logfile=/var/log/vllm-stdout.log
-stderr_logfile=/var/log/vllm-stderr.log
+stdout_logfile=/var/log/vllm-embedding-stdout.log
+stderr_logfile=/var/log/vllm-embedding-stderr.log

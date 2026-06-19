@@ -87,21 +87,6 @@ put them on different ports, for example:
 --port 8002
 ```
 
-Also make sure the Supervisor program names and log files are unique if both
-services are enabled on the same host. For example:
-
-```ini
-[program:serve_embedding]
-stdout_logfile=/var/log/serve_embedding-stdout.log
-stderr_logfile=/var/log/serve_embedding-stderr.log
-```
-
-```ini
-[program:serve_reranker]
-stdout_logfile=/var/log/serve_reranker-stdout.log
-stderr_logfile=/var/log/serve_reranker-stderr.log
-```
-
 ## 6. Install Supervisor
 
 ```bash

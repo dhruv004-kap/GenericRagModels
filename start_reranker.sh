@@ -5,4 +5,5 @@ export API_KEY="my-api-key"
 
 vllm serve $MODEL \
   --api-key $API_KEY \
-  --port 80
+  --gpu-memory-utilization 0.45 \
+  --port 8081
