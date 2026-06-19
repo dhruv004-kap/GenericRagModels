@@ -1,4 +1,4 @@
-[program:vllm]
+[program:serve_embedding]
 command=/bin/bash /home/jovyan/GenericRagModels/start_embedding.sh
 directory=/home/jovyan/GenericRagModels
 user=root
